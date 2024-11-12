@@ -12,7 +12,7 @@ const io = new Server(server, {
 });
 
 io.on('connection', (socket) => {
-  console.log(`Client connected: ${socket.id}`);
+  console.log(`Client connected: ${socket.id}`);//some random hash
 
 
   // Relay file metadata to other clients
